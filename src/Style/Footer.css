@@ -1,0 +1,211 @@
+.FooterMainDiv {
+  width: 100%;
+  height: auto;
+  background-color: rgb(246, 246, 246);
+  /* margin-top: 50px; */
+}
+ 
+ 
+ .FooterButton{
+  width: 180px;
+  padding: 20px 10px;
+  border-color: white;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 50px;
+   
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(255,33,79);
+  transition-duration: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+  margin: auto;
+   
+  margin-bottom: -40px;
+  z-index: 100;
+  position: relative;
+}
+ 
+.FooterInfoDiv {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-top: 10px;
+  height: 300px;
+  display: flex;
+  gap: 20px;
+  padding: 10px 30px;
+}
+.FooterInfoDiv div {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  align-content: start;
+  padding: 10px;
+  text-align: start;
+  gap: 15px;
+}
+.FooterInfoDiv div p {
+  font-size: 15px;
+
+  color: gray;
+}
+.FooterInfoDiv div p:hover {
+  cursor: pointer;
+  color: rgb(245, 0, 0);
+}
+.FooterInfoDiv div h3 {
+  font-size: 20px;
+  color: rgb(62, 62, 62);
+}
+
+.FooterBottomMainDiv {
+  
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+}
+.FooterBottomImgDiv {
+  width: 20%;
+  height: 70px;
+  margin: auto;
+  margin-top: 25px;
+}
+.FooterBottomImgDiv img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  cursor: pointer;
+   
+  object-fit: cover;
+  animation: floating 1s linear infinite;
+}
+@keyframes floating {
+  0% {
+    transform: translateX(-5%);
+  }
+  50% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(-5%);
+  }
+}
+
+.FooterBottomMTextDiv {
+   
+   
+}
+.FooterBottomMTextDiv p {
+  font-size: 15px;
+  color: gray;
+  margin-top: -30px;
+}
+
+.FooterBottomSocial{
+ 
+    display: flex;
+    width: 30%;
+    height: 50px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+.FooterBottomSocial p{
+    font-size: 20px;
+    color: gray;
+    margin-top: -30px;
+}
+.FooterBottomSocial p:hover{
+    cursor: pointer;
+ color: red;
+}
+
+@media (max-width: 668px) {
+  .FooterInfoDiv {
+     
+    width: 100%;
+    margin-top: 30px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+  .FooterInfoDiv div {
+     
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  
+    align-content: start;
+    padding: 10px;
+    text-align: start;
+    gap: 15px;
+  }
+
+  .FooterBottomSocial{
+ margin: auto;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+.FooterBottomImgDiv {
+  width: 50%;
+  height: 70px;
+  margin: auto;
+  margin-top: 25px;
+  object-fit: cover;
+}
+.FooterBottomImgDiv img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  cursor: pointer;
+   
+  object-fit: cover;
+  animation: floating 1s linear infinite;
+}
+
+.FooterButton{
+  width: 180px;
+  padding: 15px 10px;
+  border-color: white;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 50px;
+   
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(255,33,79);
+  transition-duration: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+  margin: auto;
+   
+  margin-bottom: -55px;
+  z-index: 100;
+  position: relative;
+}
+}

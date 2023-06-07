@@ -1,0 +1,213 @@
+.ProjectDiv{
+    
+width: 100%;
+height: 80vh;
+display: flex;
+ 
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+gap: 30px;
+padding: 20px 50px;
+}
+.ProjectDiv h1{
+color: #444444;
+font-size: 35px;
+font-family:  "open sans", sans-serif;
+line-height: 56px;
+}
+.ProjectDiv p{
+    color: #7f8497;
+    font-size: 16px;
+    /* letter-spacing: 1px; */
+    width: 70%;
+    line-height: 32px;
+    font-family: nunito, sans-serif;
+    }
+
+    .BubboleDiv1{
+         width: 70px;
+        height: 70px;
+        position: absolute;
+        background-color: #ffc34a;
+        border-radius: 50px 50px 0px;
+        left: 60px;
+         margin-top: -250px;
+    }
+    .BubboleDiv2{
+        width: 80px;
+       height: 80px;
+       position: absolute;
+       background-color: rgb(204,106,255);
+       border-radius: 50px 50px 0px;
+       right: 200px;
+       
+        margin-bottom: -350px;
+   }
+   .BubboleDiv3{
+    width: 45px;
+   
+   height: 45px;
+   position: absolute;
+   background-color: rgb(255,227,74);
+   border-radius:  0px 50px 50px;
+   margin-top: 50px;
+   margin-left: 100px;
+}
+.BubboleDiv4{
+    width: 60px;
+   height: 60px;
+   position: absolute;
+   background-color: #ffc34a;
+   border-radius:  50px 50px  0px;
+    margin-bottom: -400px;
+   /* border: 1px solid red; */
+    
+}
+.BubboleDiv5{
+    width: 55px;
+   height: 55px;
+   position: absolute;
+   background-color: rgb(204,106,255);
+   border-radius:  0px 50px 50px;
+   margin-top: -400px;
+   margin-left: -200px;
+   
+}
+.BubboleDiv6{
+    width: 50px;
+   height: 50px;
+   position: absolute;
+   background-color: rgb(255,74,91);
+   border-radius: 50px 50px 0px;
+    margin-top: -200px;
+    margin-left: 300px;
+}
+.BubboleDiv7{
+    width: 70px;
+   height: 70px;
+   position: absolute;
+   background-color: rgb(88,229,130);
+   border-radius: 50px 50px 0px;
+   right:60px;
+    margin-bottom: 50px;
+}
+.BubboleDiv8{
+    width: 50px;
+   height: 50px;
+   position: absolute;
+   background-color: rgb(95,219,234);
+   border-radius: 50px  50px 0px;
+    margin-top: 200px;
+    margin-right: 300px;
+}
+.BubboleDiv9{
+    width: 70px;
+   height: 70px;
+   position: absolute;
+   background-color: rgb(2,148,245);
+   border-radius: 50px 50px 0px;
+   left: 0;
+   margin-bottom: -300px;
+}
+.BubboleDiv10{
+    width: 60px;
+   height: 60px;
+   position: absolute;
+   background-color: rgb(84,189,255);
+   border-radius:  0px 50px 50px;
+   margin-left: 600px;
+}
+
+.BubboleDiv11{
+    width: 50px;
+   height: 50px;
+   position: absolute;
+   background-color: rgb(252, 241, 29);
+   border-radius: 50px 50px 0px;
+    margin-top: -270px;
+    margin-left: 600px;
+}
+.BubboleDiv12{
+    width: 60px;
+   height: 60px;
+   position: absolute;
+   background-color: rgb(20, 255, 91);
+   border-radius: 0px 50px 50px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+.BubboleDiv13{
+    width: 50px;
+   height: 50px;
+   position: absolute;
+   background-color: rgb(255, 123, 41);
+   border-radius:  0px  50px 50px;
+    margin-top: 400px;
+    margin-right: 800px;
+}
+.BubboleDiv14{
+    width: 50px;
+   height: 50px;
+   position: absolute;
+   background-color: rgb(245, 2, 160);
+   border-radius: 50px 50px 0px;
+   margin-right: 1000px;
+  
+}
+.BubboleDiv15{
+    width: 60px;
+   height: 60px;
+   position: absolute;
+   background-color: rgb(84, 218, 255);
+   border-radius:  50px 50px  0px;
+   margin-left: 900px;
+   margin-top: -350px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 668px) {
+    .BubboleDiv1 , .BubboleDiv2 ,.BubboleDiv3 , .BubboleDiv4,.BubboleDiv5,
+    .BubboleDiv6 , .BubboleDiv7 ,.BubboleDiv8 , .BubboleDiv9,.BubboleDiv10,
+    .BubboleDiv11 , .BubboleDiv12 ,.BubboleDiv13 , .BubboleDiv14,.BubboleDiv15{
+        display: none;
+    }
+    .ProjectDiv{
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+         
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 30px;
+         
+        }
+
+        .ProjectDiv p{
+            color: #7f8497;
+            font-size: 16px;
+             
+            width: 100%;
+            line-height: 30px;
+            font-family: nunito, sans-serif;
+            }
+
+            .ProjectDiv h1{
+                color: #444444;
+                font-size: 30px;
+               
+                 
+                font-family:  "open sans", sans-serif;
+                line-height: 40px;
+                }
+}

@@ -1,0 +1,49 @@
+.TMainDiv{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 30px;
+}
+.TMainText{
+    
+    width: 50%;
+    height:90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   
+}
+.TMainText p{
+     font-size: 250px;
+     margin: auto;
+     font-weight: bolder;
+    color: rgb(247,249,255);
+}
+.TMainImg{
+    
+    width: 50%;
+    height:90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.TMainImg img{
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+
+
+
+@media (max-width:668px) {
+    .TMainDiv{
+    display: none;
+    }
+
+    
+}

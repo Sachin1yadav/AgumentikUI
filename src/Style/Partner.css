@@ -1,0 +1,17 @@
+.PartnerDiv{
+    width: 100%;
+    height: 300px;
+     background-color: rgb(251,251,251);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.PartnerDiv h1{
+    font-size: 40px;
+color: rgb(73, 71, 71);
+}
+.PartnerDiv p{
+    font-size: 18px;
+    color: rgb(107, 104, 104);
+    letter-spacing: 1px ;
+}

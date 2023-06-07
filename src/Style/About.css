@@ -1,0 +1,89 @@
+.AboutInfoDiv{
+     
+    height:200px;
+    padding: 20px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.AboutInfoDiv h4{
+font-size: 35px;
+margin-bottom: 40px;
+font-weight: 300;
+}
+.AboutInfoDiv p{
+    font-size:14px;
+    width: 70%;
+    margin: auto;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: rgb(154, 151, 151);
+    
+    }
+
+
+    .HomePageVideoDiv{
+        
+        display: flex;
+        height: 100vh;
+    }
+    .HomePageVideoImgDiv{
+        width: 100%;
+        height: 90%;
+         
+     
+    }
+    .HomePageVideoImgDiv img{
+        object-fit: cover;
+        width: 90%;
+        height: 90%;
+    }
+    
+     
+    
+
+
+
+    @media (max-width:668px) {
+        .AboutInfoDiv{
+            height: auto;
+            text-align: start;
+        }
+
+        .AboutInfoDiv h4{
+            font-size: 32px;
+            margin-bottom: 30px;
+            font-weight: 300;
+            
+            width: 100%;
+            }
+            .AboutInfoDiv p{
+                font-size:14px;
+                width: 100%;
+                margin: auto;
+                letter-spacing: 1px;
+                line-height: 20px;
+                color: rgb(154, 151, 151);
+                
+                }
+
+        .HomePageVideoDiv{
+            
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+        .HomePageVideoImgDiv{
+            width: 100%;
+            height: 90%;
+             
+         
+        }
+        .HomePageVideoImgDiv img{
+            object-fit: cover;
+            width: 90%;
+            height: 90%;
+        }
+    }
